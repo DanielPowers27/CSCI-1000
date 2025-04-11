@@ -8,7 +8,7 @@ while True:
         else:
             break
     except ValueError:
-        print(f"{user_input} is an invalid input, please enter your age using digits. (i.e. 14, 29, 36)")
+        print(f"{user_input} is an invalid input, please enter your age using digits. (e.g., 14, 29, 36)")
 if age <=13:
     print(f"You are {age} years old, which makes you a child.")
 elif age <=17:
