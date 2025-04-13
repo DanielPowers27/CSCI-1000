@@ -58,15 +58,14 @@ while True:
         print("Invalid Choice")
     while True:
         restart = input("Would you like to use me again, Yes or No:").lower()
-        try:
-            if restart == "yes":
-                print("Great!")
-                break
-            elif restart == "no":
-                print("Shutting Down...")
-                exit()
-        except ValueError:
-                print("Invalid input, input must be a yes or no response!")
+        if restart == "yes":
+            print("Great!")
+            break
+        elif restart == "no":
+            print("Shutting Down...")
+            exit()
+        else:
+            print("Invalid input, input must be a Yes or No response!")
 
 
 
