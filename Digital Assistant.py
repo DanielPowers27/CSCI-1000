@@ -135,6 +135,7 @@ while True:
             print("1. Health Tips")
             print("2. Simple Calculator")
             print("3. Age Checker")
+            print("4. Exit")
             app = input("Which would you like?:").lower()
             if app == "1" or app == "1. health tips" or app == "one" or app == "health tips":
                 (health_assistant())
@@ -142,5 +143,8 @@ while True:
                 (simple_calculator())
             elif app == "3" or app == "3. age checker" or app == "three" or app == "age checker":
                 (age_checker())
+            elif app == "4" or app == "4. exit" or app == "four" or app == "exit":
+                print("Shutting Down Digital Assistant...")
+                exit()
             else:
                 print("Invalid Option, Try Again.")
