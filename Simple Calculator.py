@@ -1,21 +1,3 @@
-"""def add(a,b):
-    return a + b
-print(add(3, 5))"""
-
-"""def subtract(a,b):
-    return a - b
-print(subtract(4,2))"""
-
-"""def multiply(a,b):
-    return a * b
-print(multiply(5,5))"""
-
-"""def divide(num1,num2):
-    if num2 ==0:
-        return"Error"
-    else:
-        return num1/num2
-print(divide(10,2))"""
 
 while True:
     print("Simple Calculator")

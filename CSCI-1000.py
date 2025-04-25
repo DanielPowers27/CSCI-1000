@@ -80,3 +80,72 @@ else:
 Age =input("Enter Your Age:")
 print(f"My name is {Name}, and I am {Age} years old!")"""
 
+
+"""my_tup = [1, "Wonderful", True, 'wonderful', True, False, 1.0]
+my_tup[5] = True
+print(my_tup)"""
+
+
+"""a = ['mary', 'had','a','little','lamb']
+for i in range(len(a)):
+    print(i, a[i])"""
+
+
+"""for i in range(3):
+    print(i)
+#output = 0 1 2"""
+
+"""for i in range(0,3):
+    print(i)
+#output = 0 1 2"""
+
+"""for i in range(1,3):
+    print(i)
+#output = 1 2"""
+
+"""for i in range(2,3):
+    print(i)
+#output = 2"""
+
+"""for i in range(3,3):
+    print(i)
+#output = nothing because it starts and stops at 3"""
+
+"""for i in range(1, 10, 2): #2 is the steps or number between numbers
+    print(i)
+#output = 1 3 5 7 9"""
+
+"""for i in range(1, 10, 3): #3 is the steps or number between numbers
+    print(i)
+#output = 1 4 7 No 10 because 10 is the stop"""
+
+"""for i in range(0, 21, 2):
+    print(i)
+#output 0 2 4 6 8 10 12 14 16 18 20 Try to print only even numbers 0 to 20"""
+
+"""for i in range(-2, 20, 2):
+    print(i+2)
+#output 0 2 4 6 8 10 12 14 16 18 20 This method also works for printing even only from numbers 0 to 20"""
+
+def health_assistant():
+    name = input("Enter your name: ")
+    age = int(input("Enter your age: "))
+    weight = float(input("Enter your weight in kilograms: "))
+    height = float(input("Enter your height in meters: "))
+
+    bmi = weight / (height ** 2)
+    print(f"Name: {name}")
+    print(f"Age: {age}")
+    print(f"BMI: {bmi:.2f}")
+
+    if bmi < 18.5:
+        print("Health: Underweight")
+    elif bmi < 25:
+        print("Health: Normal weight")
+    elif bmi < 30:
+        print("Health: Overweight")
+    else:
+        print("Health: Obese")
+
+health_assistant()
+
